@@ -10,12 +10,11 @@ Verde 2: #0c360c
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
     margin: 0px;
-    color: white;
     box-sizing: border-box;
  }
 
  body, html {
-    background-color: #0c360c;
+    background-color: #168116;
     height: 100vh;
     width: 100vw;
  }
@@ -33,7 +32,7 @@ Verde 2: #0c360c
     transform: translate(-50%, -50%);
     overflow: hidden;
     
-    background-color: rgba(255, 255, 255, 0.164);
+    background-color: rgba(255, 255, 255, 0.445);
     width: 250px;
     height: 500px;
     border-radius: 20px;
@@ -54,4 +53,12 @@ Verde 2: #0c360c
  section#login > div#formulario {
     display: block;
     padding: 10px;
+ }
+
+ div#formulario > h1 {
+   text-align: center;
+   margin-bottom: 10px;
+ }
+ div#formulario > p {
+   font-size: 0.8em;
  }
